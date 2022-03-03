@@ -1,0 +1,4 @@
+From : Tomcat latest
+Workdir: /opt/tomcat/
+copy : target/war  /root/tomcat/webapps/
+run :["sh" startup.sh "run"]
