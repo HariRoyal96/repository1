@@ -1,0 +1,10 @@
+docker build -t image .
+docker run -itd --name -p 8080:8080 
+docker create volume 
+docker inspect logs 
+docker inspect container name/id
+docker network create --driver bridge --subnet gateway network name
+docker inspect network name
+docker info
+docker prune - for removing unused images or containers
+docker exec -it container id or name - to login docker container
