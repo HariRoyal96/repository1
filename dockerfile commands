@@ -1,0 +1,10 @@
+From     -Base image
+Author   -who maintains dockerfile
+workdir  -it is used to set current path
+run      -  is an image build step
+entrypoint - it is used to set executables that will always run when container initiated
+cmd      - it is used to execute the default command
+expose - it is used to specify the port
+volume -  
+copy    - it is used to copy from source to destination
+add  - same as copy but add supports url 
